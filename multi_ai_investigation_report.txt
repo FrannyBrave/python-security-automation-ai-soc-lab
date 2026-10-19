@@ -1,0 +1,12 @@
+MULTI-ALERT AI INVESTIGATION — SYNTHETIC LAB EXAMPLE
+This example represents two HIGH-priority input records from investigation_results.json. The following sample summaries are illustrative; they are not verification of an AI model run on the published code.
+
+ALERT SOC-001
+Priority: HIGH | Review Status: PENDING_ANALYST_REVIEW
+Reported 12 failed logons for alex.morgan, associated with documentation IP 203.0.113.25. The count exceeds the configured threshold. Possible explanations include stale credentials, user error, or password guessing, none confirmed. Verify raw 4625 logs, search for 4624 successes, and identify the real source context. There is no evidence of confirmed compromise.
+
+ALERT SOC-003
+Priority: HIGH | Review Status: PENDING_ANALYST_REVIEW
+Reported 20 failed logons for admin.lab, associated with documentation IP 192.0.2.50. The count exceeds the configured threshold. Possible explanations include an automated process or unauthorized authentication attempts, neither confirmed. Retrieve raw event metadata, correlate account and source activity, and identify expected systems or service owners. There is no evidence of confirmed compromise.
+
+No containment or response action has been taken.
