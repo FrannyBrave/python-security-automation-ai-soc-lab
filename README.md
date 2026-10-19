@@ -42,4 +42,6 @@ Optional: create a private `.env` from `.env.example` and set `OPENAI_API_KEY` b
 
 The lab includes synthetic data only; documentation-only IP addresses are not threat-intelligence evidence. The simple detection rule is not production validated. AI-generated hypotheses require corroborating telemetry and analyst review before any response action. The training demonstrated six passing validator tests and structured reporting.
 
-The screenshot evidence and other project files are being uploaded as part of the portfolio package.
+Selected synthetic example reports are provided as text and CSV files. The original screenshot evidence is preserved in the separately prepared downloadable Lab 3 portfolio ZIP; screenshots have not yet been uploaded to this GitHub repository.
+
+**Repository publication note:** This GitHub version was rebuilt through the connected GitHub account after local HTTPS push authentication failed. It contains equivalent working exercises but is not an identical commit-by-commit mirror of the original Mac repository. The local and remote Git histories are separate; do not force-push one over the other.
