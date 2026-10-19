@@ -1,0 +1,46 @@
+[
+  {
+    "alert_id": "SOC-001",
+    "account": "alex.morgan",
+    "source_ip": "203.0.113.25",
+    "event_id": 4625,
+    "failed_attempts": 12,
+    "priority": "HIGH",
+    "finding": "Failed logons exceeded the configured threshold.",
+    "recommendation": "Investigate source and subsequent account activity.",
+    "review_status": "PENDING_ANALYST_REVIEW"
+  },
+  {
+    "alert_id": "SOC-002",
+    "account": "jordan.lee",
+    "source_ip": "198.51.100.10",
+    "event_id": 4625,
+    "failed_attempts": 3,
+    "priority": "LOW",
+    "finding": "Failed logons remained below the configured threshold.",
+    "recommendation": "Monitor for additional authentication failures.",
+    "review_status": "PENDING_ANALYST_REVIEW"
+  },
+  {
+    "alert_id": "SOC-003",
+    "account": "admin.lab",
+    "source_ip": "192.0.2.50",
+    "event_id": 4625,
+    "failed_attempts": 20,
+    "priority": "HIGH",
+    "finding": "Failed logons exceeded the configured threshold.",
+    "recommendation": "Investigate source and subsequent account activity.",
+    "review_status": "PENDING_ANALYST_REVIEW"
+  },
+  {
+    "alert_id": "SOC-004",
+    "account": "alex.morgan",
+    "source_ip": "203.0.113.25",
+    "event_id": 4624,
+    "failed_attempts": 0,
+    "priority": "LOW",
+    "finding": "Event did not match the failed-logon rule.",
+    "recommendation": "Review if additional suspicious indicators exist.",
+    "review_status": "PENDING_ANALYST_REVIEW"
+  }
+]
