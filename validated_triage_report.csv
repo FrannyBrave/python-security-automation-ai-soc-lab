@@ -1,0 +1,4 @@
+Alert ID,Event ID,Account,Source IP,Failed Attempts,Priority,Recommendation
+SOC-001,4625,alex.morgan,203.0.113.25,12,HIGH,Investigate repeated authentication failures
+SOC-003,4625,admin.lab,192.0.2.50,20,HIGH,Investigate repeated authentication failures
+SOC-004,4624,alex.morgan,203.0.113.25,0,LOW,Review if context warrants investigation
