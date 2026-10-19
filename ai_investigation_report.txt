@@ -1,0 +1,19 @@
+AI-ASSISTED SECURITY INVESTIGATION — SYNTHETIC LAB SAMPLE
+Alert ID: SOC-001
+Rule-Based Priority: HIGH
+Review Status: PENDING_ANALYST_REVIEW
+
+1. Alert Overview
+The synthetic alert reports 12 failed Windows logons (Event ID 4625) for alex.morgan, associated with documentation IP address 203.0.113.25.
+
+2. Evidence and Findings
+The aggregated alert count exceeds the configured threshold of ten. Individual event records, exact timestamps, hostnames and confirmation of a successful login are not provided. These counts are reported values, not independently verified log entries.
+
+3. Possible Explanations
+Unconfirmed hypotheses include a user entering incorrect credentials, a service using a stale password, or an unauthorized password-guessing attempt. The alert alone cannot distinguish these scenarios.
+
+4. Recommended Verification Steps
+First retrieve the raw 4625 logs, timestamps, hosts and logon types. Second correlate the account's successful 4624 events and failures across other accounts. Third determine whether the source matches an expected VPN, service or user system.
+
+5. Limitations and Analyst Review
+Synthetic data only. No raw authentication events, attribution or corroborating telemetry were available. No compromise has been established. Analyst verification is required; do not auto-disable accounts or block IPs.
